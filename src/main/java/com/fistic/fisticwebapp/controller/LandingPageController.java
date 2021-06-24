@@ -9,7 +9,7 @@ public class LandingPageController {
 	
 	@RequestMapping("/")
 	public ModelAndView getLandingPage(ModelAndView mv) {
-		mv.setViewName("landingpage");
+		mv.setViewName("loginpage");
 		return mv;
 	}
 
